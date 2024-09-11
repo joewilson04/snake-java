@@ -1,5 +1,4 @@
 
-import com.sun.source.tree.ForLoopTree;
 
 public class Game {
     
@@ -103,7 +102,7 @@ public class Game {
             if (i == 3)
                 newGame.direction = DIRECTION_RIGHT;
             if (newGame.gameOver == true)
-                break();
+                break;
         }
     }
 }
